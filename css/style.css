@@ -57,7 +57,7 @@ img {
 }
 
 .ponto-azul1 {
-  color: #d400d4;
+  color: #FBD2BA;
 }
 
 .container {
@@ -136,7 +136,7 @@ img {
   /* Mínimo de 80% da altura da tela */
   /* Cor de fundo do container (opcional) */
   padding: 0 20px;
-  background: linear-gradient(to top, #CDBBAA 10%, #A6CDD0 50%);
+  background: linear-gradient(to top, #FBD2BA 10%, #A6CDD0 50%);
 }
 
 .painel {
@@ -178,8 +178,8 @@ img {
 .box::before {
   content: '';
   position: absolute;
-  inset: -1px 60px;
-  background: linear-gradient(315deg, #A6CDD0, #d400d4);
+  inset: -1px 70px;
+  background: linear-gradient(315deg, #FBD2BA, #FBD2BA);
   transition: 0.5s;
   animation: animate 8s linear infinite;
 }
@@ -210,7 +210,7 @@ img {
 .content {
   position: absolute;
   inset: 5px;
-  border: 3px solid white;
+  border: 2px solid #FBD2BA;
   z-index: 3;
   border-radius: 50%;
   overflow: hidden;
@@ -240,9 +240,9 @@ img {
 
 .content h2 {
   position: relative;
-  font-size: 0.7em;
+  font-size: 0.9em;
   text-align: center;
-  color: white;
+  color: #FBD2BA;
   font-weight: 300;
   letter-spacing: 0.5em;
   text-transform: uppercase;
@@ -289,7 +289,7 @@ img {
 input[type="submit"] {
   padding: 15px 30px;
   font-size: 80%;
-  background-color: #CDBBAA;
+  background-color: #FBD2BA;
   border: 3px solid #A6CDD0;
   color: white;
   border-radius: 50px;
@@ -385,7 +385,7 @@ input[type="submit"]:hover {
   max-width: 100%;
   justify-content: center;
   text-align: center;
-  background-color: #CDBBAA;
+  background-color: #FBD2BA;
   color: white
 }
 
@@ -471,7 +471,7 @@ input[type="submit"]:hover {
   width: 20px;
   height: 20px;
   background-color: white;
-  border: 1px solid #CDBBAA;
+  border: 1px solid #FBD2BA;
   border-radius: 50%;
   top: 0;
   left: 50%;
@@ -540,8 +540,8 @@ input[type="submit"]:hover {
 }
 
 .row:hover .line span:not(.last-point) {
-  background-color: #CDBBAA;
-  box-shadow: 0 0 9px 3px #CDBBAA;
+  background-color: #FBD2BA;
+  box-shadow: 0 0 9px 3px #FBD2BA;
 }
 
 
@@ -640,7 +640,7 @@ h3 {
 .containerazul {
   height: 100%;
   width: 100%;
-  background-color: #CDBBAA;
+  background-color: #FBD2BA;
 }
 
 .container-ferramentas {
