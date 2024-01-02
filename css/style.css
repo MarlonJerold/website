@@ -129,8 +129,7 @@ img {
 .container-corpo {
   display: flex;
   justify-content: center;
-  /* Espaço entre as duas divs */
-  /* Centraliza verticalmente as divs */
+
   width: 100%;
   min-height: 80vh;
   /* Mínimo de 80% da altura da tela */
@@ -171,7 +170,6 @@ img {
   position: relative;
   width: 200px;
   height: 200px;
-  margin-left: 8.5%;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -211,8 +209,8 @@ img {
 .content {
   position: absolute;
   inset: 5px;
-  border: 2px solid #FBD2BA;
-  z-index: 3;
+  border: 2px solid white;
+  z-index: 7;
   border-radius: 50%;
   overflow: hidden;
   display: flex;
@@ -243,7 +241,7 @@ img {
   position: relative;
   font-size: 0.9em;
   text-align: center;
-  color: #FBD2BA;
+  color: white;
   font-weight: 300;
   letter-spacing: 0.5em;
   text-transform: uppercase;
@@ -265,12 +263,12 @@ img {
 
 .bio {
   width: 100%;
-  height: 150px;
+  height: 200px;
   text-align: right;
   display: flex;
   align-items: center;
-  justify-content: right;
-  padding-left: 10%;
+  justify-content: left;
+  padding-left: 20%;
   padding-right: 20%;
   position: relative;
 
@@ -582,7 +580,7 @@ input[type="submit"]:hover {
 
 .containersobre {
   max-width: 100%;
-  margin: 15%;
+  margin-left: 20px;
   margin-top: 20px;
   padding: 10px;
   text-align: left;
