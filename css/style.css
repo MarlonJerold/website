@@ -10,6 +10,7 @@ body {
   font-family: 'Lato', sans-serif;
   color: rgb(97, 95, 95);
   line-height: 1.5;
+
 }
 
 ul {
@@ -381,7 +382,9 @@ input[type="submit"]:hover {
   max-width: 70%;
   justify-content: center;
   text-align: center;
+  border-top: 2px solid #A6CDD0;
   background-color: #FBD2BA;
+
   color: white
 }
 
@@ -389,6 +392,7 @@ input[type="submit"]:hover {
   .tabs {
     max-width: 300px;
   }
+
 
   .tabs__label {
     margin-right: 1%;
@@ -431,7 +435,6 @@ input[type="submit"]:hover {
 .tabs__radio:checked+.tabs__label {
   font-weight: bold;
   color: white;
-  border-bottom: 5px solid #A6CDD0;
 }
 
 .tabs__radio:checked+.tabs__label+.tabs__content {
@@ -582,6 +585,7 @@ input[type="submit"]:hover {
 .containersobre {
   max-width: 100%;
   margin-left: 20px;
+  margin-right: 20px;
   margin-top: 20px;
   padding: 10px;
   text-align: left;
@@ -704,8 +708,8 @@ h3 {
 
 @media screen and (max-width:500px) {
   .imagem-post {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
   }
 }
 
@@ -728,4 +732,8 @@ h3 {
   width: 85%;
   background-color: white;
   align-items: center;
+}
+
+.contatos {
+  height: 120px;
 }
