@@ -26,7 +26,14 @@ h1,
 h2 {
   font-weight: 300;
   line-height: 1.2;
-  margin: 10px 0;
+  margin: 5px 0;
+
+}
+
+h6 {
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 5px 0;
 
 }
 
@@ -382,7 +389,6 @@ input[type="submit"]:hover {
   max-width: 70%;
   justify-content: center;
   text-align: center;
-  background-color: #FBD2BA;
 
   color: white;
 }
@@ -435,7 +441,7 @@ input[type="submit"]:hover {
 
 .tabs__radio:checked+.tabs__label {
   font-weight: bold;
-  color: #FBD2BA;
+  color: white;
 }
 
 .tabs__radio:checked+.tabs__label+.tabs__content {
@@ -737,4 +743,34 @@ h3 {
 
 .contatos {
   height: 120px;
+}
+
+
+.form {
+  margin-top: 30px;
+
+}
+
+.form input {
+  font-size: 18px;
+  padding: 15px 10px;
+  font-family: 'Lato', sans-serif;
+  border: none;
+  outline: none;
+  background-color: rgba(251, 210, 186, 0.5);
+
+}
+
+.form button {
+  padding: 15px 20px;
+  background-color: rgba(176, 200, 201, 0.5);
+  font-size: 18px;
+  color: rgb(97, 95, 95);
+  border: none;
+  transition: .3s;
+  font-family: 'Lato', sans-serif;
+}
+
+.form button:hover {
+  background-color: #b0c8c9;
 }
