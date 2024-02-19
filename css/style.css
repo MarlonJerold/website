@@ -72,7 +72,7 @@ img {
 
 
   display: flex;
-  background-color: #A6CDD0;
+  background-color: #FCFEFD;
 }
 
 .menu {
@@ -142,8 +142,8 @@ img {
   min-height: 100vh;
   /* Mínimo de 80% da altura da tela */
   /* Cor de fundo do container (opcional) */
-  padding: 0 20px;
-  background: linear-gradient(to top, #FBD2BA 10%, #A6CDD0 50%);
+
+  background: linear-gradient(to top, #272D30 10%, #FCFEFD 50%);
 }
 
 .painel {
@@ -153,7 +153,7 @@ img {
   width: 100%;
   height: 10px;
   min-height: 10px;
-  background-color: #A6CDD0;
+  background-color: #272D30;
   padding-top: 150px;
 
 }
@@ -188,7 +188,7 @@ img {
   content: '';
   position: absolute;
   inset: -1px 70px;
-  background: linear-gradient(315deg, #FBD2BA, #FBD2BA);
+  background: linear-gradient(315deg, #FCFEFD, #FCFEFD);
   transition: 0.5s;
   animation: animate 8s linear infinite;
 }
@@ -211,7 +211,7 @@ img {
   content: '';
   position: absolute;
   inset: 1px;
-  background-color: #A6CDD0;
+  background-color: #FCFEFD;
   border-radius: 50%;
   z-index: 1;
 }
@@ -219,7 +219,7 @@ img {
 .content {
   position: absolute;
   inset: 5px;
-  border: 2px solid #A6CDD0;
+  border: 2px solid #FCFEFD;
   z-index: 7;
   border-radius: 50%;
   overflow: hidden;
@@ -312,7 +312,7 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: white;
   color: #A6CDD0;
-  border: 2px solid #A6CDD0;
+  border: 2px solid #272D30;
 }
 
 @media screen and (max-width:600px) {
@@ -372,12 +372,10 @@ input[type="submit"]:hover {
 .containersubmenu {
   display: flex;
   justify-content: center;
-  width: 100;
+  width: 100%;
   overflow: hidden;
   text-align: center;
-  padding-left: 10%;
-  padding-right: 10%;
-  border-bottom: 20px;
+  background-color: white;
 }
 
 
@@ -411,7 +409,7 @@ input[type="submit"]:hover {
   align-items: center;
   cursor: pointer;
 
-  border-bottom: 2px solid #A6CDD0;
+  border-bottom: 2px solid #272D30;
 
 
 }
@@ -468,7 +466,7 @@ input[type="submit"]:hover {
 
 .row .line {
   position: relative;
-  background-color: #bfddf3;
+  background-color: #272D30;
   grid-area: theLine;
 }
 
@@ -477,7 +475,7 @@ input[type="submit"]:hover {
   width: 20px;
   height: 20px;
   background-color: white;
-  border: 1px solid #FBD2BA;
+  border: 1px solid #272D30;
   border-radius: 50%;
   top: 0;
   left: 50%;
@@ -486,7 +484,7 @@ input[type="submit"]:hover {
 }
 
 .row .contentjobs {
-  border: 1px solid #bfddf3;
+  border: 1px solid #272D30;
   padding: 20px;
   background-color: white;
   color: black;
@@ -498,7 +496,7 @@ input[type="submit"]:hover {
 
 .contentjobs h2 {
   padding-bottom: 8px;
-  color: #A6CDD0
+  color: #272D30
 }
 
 .contentjobs p {
@@ -529,11 +527,11 @@ input[type="submit"]:hover {
   display: inline-block;
   padding: 10px 16px;
   font-weight: 600;
-  border: 1px solid #bfddf3;
+  border: 1px solid #272D30;
   border-radius: 25px;
   position: relative;
   top: -7px;
-  color: #A6CDD0;
+  color: #272D30;
 }
 
 .line .last-point {
@@ -546,8 +544,8 @@ input[type="submit"]:hover {
 }
 
 .row:hover .line span:not(.last-point) {
-  background-color: #FBD2BA;
-  box-shadow: 0 0 9px 3px #FBD2BA;
+  background-color: #272D30;
+  box-shadow: 0 0 9px 3px #272D30;
 }
 
 
@@ -593,8 +591,8 @@ input[type="submit"]:hover {
   max-width: 100%;
   margin-left: 20px;
   margin-right: 20px;
-  margin-top: 20px;
-  padding: 10px;
+  margin-top: 13px;
+  margin-bottom: 40px;
   text-align: left;
 
   color: black;
@@ -616,7 +614,7 @@ input[type="submit"]:hover {
 .containersobre h1,
 h2,
 h3 {
-  color: #A6CDD0;
+  color: #272D30;
 }
 
 .icon-container {
