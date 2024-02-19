@@ -390,7 +390,7 @@ input[type="submit"]:hover {
   justify-content: center;
   text-align: center;
 
-  color: white;
+  color: #272D30;
 }
 
 @media screen and (max-width:500px) {
@@ -441,7 +441,7 @@ input[type="submit"]:hover {
 
 .tabs__radio:checked+.tabs__label {
   font-weight: bold;
-  color: white;
+  color: #a1a6aa;
 }
 
 .tabs__radio:checked+.tabs__label+.tabs__content {
@@ -697,7 +697,7 @@ h3 {
 }
 
 .nomeperfilpost {
-  height: 60px;
+  height: 45px;
   width: 190px;
   background-color: white;
 
