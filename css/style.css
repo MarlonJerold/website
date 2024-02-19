@@ -10,7 +10,7 @@ body {
   font-family: 'Lato', sans-serif;
   color: rgb(97, 95, 95);
   line-height: 1.5;
-
+  background-color: #FCFEFD;
 }
 
 ul {
@@ -143,7 +143,7 @@ img {
   /* Mínimo de 80% da altura da tela */
   /* Cor de fundo do container (opcional) */
 
-  background: linear-gradient(to top, #272D30 10%, #FCFEFD 50%);
+  /*background: linear-gradient(to top, #272D30 10%, #FCFEFD 50%);*/
 }
 
 .painel {
@@ -160,6 +160,7 @@ img {
 
 .container-top {
   display: flex;
+  background: linear-gradient(315deg, #FCFEFD, #FCFEFD);
   position: absolute;
   top: 0;
   /* Coloque a div no topo do container */
@@ -169,7 +170,7 @@ img {
 
   align-items: center;
   padding-left: 20%;
-  border: 0.1px 0 solid #ccc;
+
   /* Borda opcional */
   padding-top: 150px;
 }
@@ -281,7 +282,7 @@ img {
   padding-left: 20%;
   padding-right: 20%;
   position: relative;
-
+  background-color: #FCFEFD;
 
 
   /* Borda opcional */
@@ -351,7 +352,6 @@ input[type="submit"]:hover {
   width: 100%;
 
 
-
 }
 
 .textbio {
@@ -375,7 +375,7 @@ input[type="submit"]:hover {
   width: 100%;
   overflow: hidden;
   text-align: center;
-  background-color: white;
+  background-color: #FCFEFD;
 }
 
 
@@ -387,7 +387,7 @@ input[type="submit"]:hover {
   max-width: 70%;
   justify-content: center;
   text-align: center;
-
+  background-color: #FCFEFD;
   color: #272D30;
 }
 
@@ -428,7 +428,7 @@ input[type="submit"]:hover {
   font-size: 0.9em;
 
   display: none;
-  background-color: white;
+  background-color: #FCFEFD;
 }
 
 @media screen and (max-width:500px) {
@@ -486,7 +486,7 @@ input[type="submit"]:hover {
 .row .contentjobs {
   border: 1px solid #272D30;
   padding: 20px;
-  background-color: white;
+  background-color: #FCFEFD;
   color: black;
   border-radius: 10px;
 
@@ -670,7 +670,7 @@ h3 {
 .bloco-contacts {
   width: 95.4%;
   height: 500px;
-  background: linear-gradient(to top, black 20%, white 80%);
+  background: linear-gradient(to top, black 20%, #FCFEFD 80%);
   ;
   margin-left: 2.3%;
   display: flex;
@@ -681,7 +681,7 @@ h3 {
 .toppost {
   height: 60px;
   width: 190px;
-  background-color: white;
+  background-color: #FCFEFD;
   color: black;
 }
 
@@ -697,7 +697,7 @@ h3 {
 .nomeperfilpost {
   height: 45px;
   width: 190px;
-  background-color: white;
+  background-color: #FCFEFD;
 
 }
 
